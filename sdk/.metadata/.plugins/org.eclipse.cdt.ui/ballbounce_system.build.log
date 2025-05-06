@@ -1,0 +1,6 @@
+23:15:51 **** Incremental Build of configuration Debug for project ballbounce_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+23:15:51 Build Finished (took 231ms)
+

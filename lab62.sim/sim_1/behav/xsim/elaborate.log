@@ -1,0 +1,85 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Users/micha/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mb_usb_hdmi_top_behav xil_defaultlib.mb_usb_hdmi_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "C:/Users/micha/lab62/lab62.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" Line 69. Module clk_wiz_0 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/micha/lab62/lab62.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" Line 69. Module clk_wiz_0_clk_wiz has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/IBUF.v" Line 29. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/MMCME2_ADV.v" Line 123. Module MMCME2_ADV(CLKFBOUT_MULT_F=10.0,CLKIN1_PERIOD=10.0,CLKOUT0_DIVIDE_F=40.0,CLKOUT1_DIVIDE=8) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/BUFG.v" Line 27. Module BUFG has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/BUFG.v" Line 27. Module BUFG has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/BUFG.v" Line 27. Module BUFG has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/micha/lab62/lab62.gen/sources_1/ip/hdmi_tx_0/sim/hdmi_tx_0.v" Line 55. Module hdmi_tx_0 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/micha/lab62/lab62.gen/sources_1/ip/hdmi_tx_0/hdl/hdmi_tx_v1_0.v" Line 70. Module hdmi_tx_v1_0(C_RED_WIDTH=4,C_GREEN_WIDTH=4,C_BLUE_WIDTH=4) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "C:/Users/micha/lab62/lab62.gen/sources_1/ip/hdmi_tx_0/hdl/srldelay.v" Line 70. Module srldelay(WIDTH=40,TAPS=4'b1010) has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/ci/prod/2022.2/rdi_builds/continuous/2022_10_14_3671981/data/verilog/src/unisims/SRL16E.v" Line 29. Module SRL16E_default has a timescale but at least one module in design doesn't have timescale.
+INFO: [Common 17-14] Message 'XSIM 43-4100' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nibble_to_hex
+Compiling module xil_defaultlib.hex_driver_default
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=10.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.vga_controller
+Compiling module unisims_ver.SRL16E_default
+Compiling module xil_defaultlib.srldelay(WIDTH=40,TAPS=4'b1010)
+Compiling module xil_defaultlib.encode_default
+Compiling module xil_defaultlib.encode(CHANNEL="GREEN")
+Compiling module xil_defaultlib.encode(CHANNEL="RED")
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module unisims_ver.OSERDESE2(DATA_RATE_TQ="SDR",DAT...
+Compiling module xil_defaultlib.serdes_10_to_1
+Compiling module unisims_ver.OBUFDS(IOSTANDARD="TMDS_33")
+Compiling module xil_defaultlib.hdmi_tx_v1_0(C_RED_WIDTH=4,C_GRE...
+Compiling module xil_defaultlib.hdmi_tx_0
+Compiling module xil_defaultlib.ball
+Compiling module xil_defaultlib.color_mapper
+Compiling module xil_defaultlib.mb_usb_hdmi_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mb_usb_hdmi_top_behav
